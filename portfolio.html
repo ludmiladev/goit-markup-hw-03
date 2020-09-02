@@ -1,231 +1,159 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studia</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
 
-  <body link="red" vlink="#cecece" alink="#ff0000" background-color="black">
-    <!--Шапка сайта навигация-->
-    <header>
-      <nav>
-        <a href="./index.html">
-          <span class="web-logotip">Web</span
-          ><span class="studio-logotip">Studio</span></a
-        >
-        <ul class="nav">
-          <li>
-            <a href="./index.html" class="nav-studia">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="nav-portfolio current"
-              >Портфолио</a
-            >
-          </li>
-          <li>
-            <a href="" class="nav-contact">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="svjaz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheetе">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!--Шапка сайта навигация-->
+  <header class="site">
+    <nav class="site-nav">
+      <a href="./index.html" class="logo" lang="en">
+        <span>Web</span>Studio</a>
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com" class="email">
-            info@devstudio.com
+          <a href="./index.html" class="link">Студия</a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="link">Портфолио</a>
+        </li>
+        <li>
+          <a href="" class="link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="svjaz">
+      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a href="tel:+380961111111">+38 096 111 11 11</a>
+    </address>
+  </header>
+  <main>
+    <!--главное меню-->
+    <section>
+      <!--Скрытый заголовок-->
+      <h1 class="skrit">Главное меню</h1>
+      <ul class="list">
+        <li>
+          <button type="button">Все</button>
+        </li>
+        <li>
+          <button type="button">Веб-сайты</button>
+        </li>
+        <li>
+          <button type="button">Приложения</button>
+        </li>
+        <li>
+          <button type="button">Дизайн</button>
+        </li>
+        <li>
+          <button type="button">Маркетинг</button>
+        </li>
+      </ul>
+    </section>
+    <!--Наші проекти-->
+    <section>
+      <h2 class="skrit">Наши проэкты</h2>
+
+      <ul class="list">
+        <li>
+          <a href="">
+            <img src="./images/tehnokrak.jpg" width="370" height="294" alt="фотографии">
+            <h3>Технокряк</h3>
+            <p>Веб-сайт</p>
           </a>
         </li>
         <li>
-          <a href="tel:+380961111111" class="phone">+38 096 111 11 11 </a>
+          <a href="">
+            <img src="./images/portfolio_2.jpg" width="370" height="294" alt="два футболиста с мячём">
+            <h3>Постер New Orlean vs Golden Star</h3>
+            <p>Дизайн</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <img src="./images/portfolio_3.jpg" width="370" height="294"
+              alt="логотип ресторана Seafood черными буквами на белом фоне">
+            <h3>Ресторан Seafood</h3>
+            <p>Приложение</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <img src="./images/portfolio_4.jpg" width="370" height="294" alt="большие чёрные наушники на белом фоне">
+            <h3>Проект Prime</h3>
+            <p>Маркетинг</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <img src="./images/portfolio_5.jpg" width="370" height="294"
+              alt="на белом фоне две коробки  белая и бежевая с надписями">
+            <h3>Проект Boxes</h3>
+            <p>Приложение</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <img src="./images/portfolio_6.jpg" width="370" height="294" alt="включён монитор ПК">
+            <h3>Inspiration has no Borders</h3>
+            <p>Веб-сайт</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <img src="./images/portfolio_7.jpg" width="370" height="294"
+              alt="раскрыта книга, изображены фотографии и текст">
+            <h3>Издание Limited Edition</h3>
+            <p>Дизайн</p>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <img src="./images/portfolio_8.jpg" width="370" height="294"
+              alt="белый фон, белая этикетка с золотой ниточкой, написан логотип торговой марки">
+            <h3>Проект LAB</h3>
+            <p>Маркетинг</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./images/portfolio_9.jpg" width="370" height="294"
+              alt="серый фон, открытый ноутбук, включен, пальцы рук на нём">
+            <h3>Growing Business</h3>
+            <p>Приложение</p>
+          </a>
         </li>
       </ul>
-    </header>
-    <main>
-      <!--главное меню-->
-      <section>
-        <h1 class="zaglav-portfolio">Главное меню</h1>
-        <ul>
-          <li>
-            <button type="button" class="menu-portfolio vse">Все</button>
-          </li>
-          <li>
-            <button type="button" class="menu-portfolio veb">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="menu-portfolio prilogenia">
-              Приложения
-            </button>
-          </li>
-          <li>
-            <button type="button" class="menu-portfolio dizajn">Дизайн</button>
-          </li>
-          <li>
-            <button type="button" class="menu-portfolio markening">
-              Маркетинг
-            </button>
-          </li>
-        </ul>
-      </section>
-      <!--Наші проекти-->
-      <section>
-        <h2 class="zaglav-portfolio">Наши проэкты</h2>
+    </section>
+  </main>
 
-        <ul>
-          <li>
-            <a>
-              <img
-                src="./images/tehnokrak.jpg"
-                width="370"
-                height="294"
-                alt="фотографии"
-                class="tehnokrak"
-              />
-              <h3 class="h3-tehnokrak">Технокряк</h3>
-              <p class="vebsity">Веб-сайт</p>
-            </a>
-          </li>
+  <!--Футер-->
 
-          <li>
-            <a>
-              <img
-                src="./images/portfolio_2.jpg"
-                width="370"
-                height="294"
-                alt="два футболиста с мячём"
-                class="poster"
-              />
-              <h3 class="h3-poster">Постер New Orlean vs Golden Star</h3>
-              <p class="dizain">Дизайн</p>
-            </a>
-          </li>
+  <footer class="footer">
+    <div>
+      <a href="./index.html" class="logo" lang="en">
+        <span>Web</span>Studio</a>
+      <address class="footer-contacts">
+        <a href="https://goo.gl/maps/cJfqDqCZYwjDyBbn9" target="_blank">г. Киев, пр-т Леси Украинки, 26</a> <br />
+        <a href="mailto:info@example.com">info@example.com</a>
+        <br />
+        <a href="tel:+380991111111">+38 099 111 11 11</a>
+      </address>
+    </div>
+  </footer>
+</body>
 
-          <li>
-            <a>
-              <img
-                src="./images/portfolio_3.jpg"
-                width="370"
-                height="294"
-                alt="логотип ресторана Seafood черными буквами на белом фоне"
-                class="restoran"
-              />
-              <h3 class="h3-restoran">Ресторан Seafood</h3>
-              <p class="prilogenie-restoran">Приложение</p>
-            </a>
-          </li>
-
-          <li>
-            <a>
-              <img
-                src="./images/portfolio_4.jpg"
-                width="370"
-                height="294"
-                alt="большие чёрные наушники на белом фоне"
-                class="prime"
-              />
-              <h3 class="h3-prime">Проект Prime</h3>
-              <p class="marceting">Маркетинг</p>
-            </a>
-          </li>
-
-          <li>
-            <a>
-              <img
-                src="./images/portfolio_5.jpg"
-                width="370"
-                height="294"
-                alt="на белом фоне две коробки  белая и бежевая с надписями"
-                class="boxes"
-              />
-              <h3 class="h3-boxes">Проект Boxes</h3>
-              <p class="prilogenie-bohes">Приложение</p>
-            </a>
-          </li>
-
-          <li>
-            <a>
-              <img
-                src="./images/portfolio_6.jpg"
-                width="370"
-                height="294"
-                alt="включён монитор ПК"
-                class="inspiration"
-              />
-              <h3 class="h3-inspiration">Inspiration has no Borders</h3>
-              <p class="veb-sity">Веб-сайт</p>
-            </a>
-          </li>
-
-          <li>
-            <a>
-              <img
-                src="./images/portfolio_7.jpg"
-                width="370"
-                height="294"
-                alt="раскрыта книга, изображены фотографии и текст"
-                class="izdanie"
-              />
-              <h3 class="h3-izdanie">Издание Limited Edition</h3>
-              <p class="limited">Дизайн</p>
-            </a>
-          </li>
-
-          <li>
-            <a>
-              <img
-                src="./images/portfolio_8.jpg"
-                width="370"
-                height="294"
-                alt="белый фон, белая этикетка с золотой ниточкой, написан логотип торговой марки"
-                class="lab"
-              />
-              <h3 class="h3-lab">Проект LAB</h3>
-              <p class="marcetihg-lab">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a>
-              <img
-                src="./images/portfolio_9.jpg"
-                width="370"
-                height="294"
-                alt="серый фон, открытый ноутбук, включен, пальцы рук на нём"
-                class="growing"
-              />
-              <h3 class="h3-growing">Growing Business</h3>
-              <p class="prilogenie-growing">Приложение</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-    </main>
-
-    <!--Футер-->
-
-    <footer class="footer">
-      <div>
-        <a href="./index.html">
-          <span class="web-logo">Web</span
-          ><span class="studio-logo">Studio</span></a
-        >
-        <address class="address">
-          г. Киев, пр-т Леси Украинки, 26<br />
-          <a href="mailto:info@example.com" class="email-portfolio"
-            >info@example.com</a
-          >
-          <br />
-          <a href="tel:+380991111111" class="tel-portfolio"
-            >+38 099 111 11 11</a
-          >
-        </address>
-      </div>
-    </footer>
-  </body>
 </html>

@@ -9,7 +9,7 @@
   --primary-text-color: #757575;
   --accent-color: #2196f3;
   --primary-gov-color: #ffffff;
-  --secondary-bg-color: #2f303a;
+  --secondary-sov-color: #2f303a;
 }
 
 body {
@@ -98,7 +98,7 @@ header {
 }
 
 /* Стилизация контактов */
-.svjaz a {
+.nav-svjaz a {
   color: var(--primary-text-color);
   font-weight: 500;
   font-style: normal;
@@ -107,8 +107,8 @@ header {
   letter-spacing: 0.02em;
 }
 
-.svjaz a:hover,
-.svjaz a:focus {
+.nav-svjaz a:hover,
+.nav-svjaz a:focus {
   color: var(--accent-color);
 }
 
@@ -126,14 +126,63 @@ li {
 
 .geroj {
   color: var(--primary-gov-color);
-  background-color: var(--primary-text-color);
+  background-color: var(--secondary-sov-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
 }
 
+/*Стилизация наши преимущества*/
+
+.privilege {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.privilege-abzaz {
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.job {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
 /* Стилизация footer */
 
 /* Стилизация контактов footer */
 .footer {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--secondary-sov-color);
 }
 
 .footer-contacts {
@@ -144,13 +193,21 @@ li {
 }
 
 .footer-contacts a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-contacts a:hover,
 .footer-contacts a:focus {
   color: var(--accent-color);
+}
+.footer-contacts .footer-svjaz {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }

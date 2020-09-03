@@ -100,7 +100,7 @@ header .container {
   padding-top: 27px;
   padding-bottom: 22px;
   margin-right: 93px;
-  color: #000000;
+  color: var(--title-text-color);
 }
 
 .bottom .logo {
@@ -364,10 +364,6 @@ bottom-svjaz a {
 
 /*.carta {
   color: var(--primary-gov-color);*/
-
-/*.bottom-svjaz a {
-  color: rgba(255, 255, 255, 0.6);
-}*/
 
 .bottom-svjaz a:hover,
 .bottom-svjaz a:focus {

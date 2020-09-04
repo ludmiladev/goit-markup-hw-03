@@ -53,7 +53,6 @@ address {
   font-style: normal; /*стиль шрифта*/
 }
 
-/* COMPONENTS */
 .container {
   width: 1200px; /*ширина*/
   padding: 0 15px; /*отступ от содержимого до края блока*/
@@ -63,13 +62,11 @@ address {
 
 .scrit {
   position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: rect(1px, 1px, 1px, 1px); /*область для скрытого заголовка*/
   padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
+  border: 0; /*убирает рамку*/
+  height: 1px; /*высота*/
+  width: 1px; /*ширина*/
   overflow: hidden;
 }
 

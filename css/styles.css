@@ -73,38 +73,38 @@ address {
 /* Cтилизация заголовка*/
 
 header {
-  padding-top: 35px;
-  padding-bottom: 29px;
+  padding-top: 35px; /*отступ от верхнего края*/
+  padding-bottom: 29px; /*отступ от нижнего края содержимог оелемента*/
   background-color: var(--primary-gov-color);
 }
 
 header .container {
-  display: flex;
-  align-items: center;
+  display: flex; /*поставили в ряд из привет!*/
+  align-items: center; /*выравнивам по центру*/
 }
 
 /* Стилизация логотипа*/
 
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-family: Raleway, sans-serif; /*шрифт*/
+  font-weight: 700; /*насыщенность шрифта*/
+  font-size: 26px; /*размер шрифта*/
+  line-height: 1.19; /*междустрочный интервал*/
 }
 
 .logo span {
-  color: var(--accent-color);
+  color: var(--accent-color); /*цвет*/
 }
 
 .top .logo {
-  padding-top: 27px;
-  padding-bottom: 22px;
+  padding-top: 27px; /*отступ от верхнего края*/
+  padding-bottom: 22px; /*отступ от нижнего края содержимог елемента*/
   margin-right: 93px;
   color: var(--title-text-color);
 }
 
 .bottom .logo {
-  margin-bottom: 20px;
+  margin-bottom: 20px; /*отступа от нижнего края */
   color: var(--primary-gov-color);
 }
 
@@ -201,7 +201,7 @@ p {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+  text-transform: uppercase; /*делаем, чтоб все буквы были заглавными*/
 
   color: var(--primary-gov-color);
 }
@@ -209,7 +209,7 @@ p {
 .geroj-cnopca {
   display: block;
   width: 200px;
-  min-height: 50px;
+  min-height: 50px; /*минимальная высота*/
   margin: 0 auto;
   padding: 10px 31px;
 
@@ -222,14 +222,14 @@ p {
   color: var(--primary-gov-color);
   background-color: var(--accent-color);
 
-  border-radius: 4px;
-  border-width: 0;
+  border-radius: 4px; /*округляем края кнопки*/
+  border-width: 0; /*толщина*/
 }
 
 /* Cтилизация наших преимуществ */
 
 .rabot {
-  padding-top: 94px;
+  padding-top: 94px; /*Устанавливает значение поля от верхнего края содержимого элемента. Полем называется расстояние от внутреннего края рамки элемента до воображаемого прямоугольника, ограничивающего его содержимое*/
   padding-bottom: 94px;
 }
 
@@ -269,7 +269,7 @@ p {
 .cartinca-title {
   margin-bottom: 50px;
   text-align: center;
-  font-size: 36px;
+  font-size: 36px; /* размер шрифта*/
   line-height: 1.17;
 }
 
@@ -280,7 +280,7 @@ p {
 
 .cartinca .cape {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /*Флексы выстраиваются в несколько строк*/
   margin: -15px;
 }
 
@@ -299,7 +299,7 @@ p {
 
 .comanda .cape {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /*задает отступы между картинками*/
 }
 
 .comanda-photo {
@@ -318,8 +318,7 @@ p {
   padding-bottom: 30px;
   background: var(--primary-gov-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+    0px 2px 1px rgba(0, 0, 0, 0.2); /*добавляем тень*/
 }
 
 .comanda-photo img {
@@ -365,7 +364,7 @@ bottom-svjaz a {
 /*.carta {
   color: var(--primary-gov-color);*/
 
-.bottom-svjaz a:hover,
+.bottom-svjaz a:hover,/*фокус и ховер*/
 .bottom-svjaz a:focus {
   color: var(--accent-color);
 }
@@ -394,7 +393,7 @@ header {
 
 .filter {
   display: flex;
-  justify-content: center;
+  justify-content: center; /*выравнивание картинок по центру относительно всего контейнера*/
   margin-bottom: 34px;
 }
 
@@ -418,7 +417,7 @@ header {
   margin-right: 8px;
 }
 
-.filter-cnopca:hover,
+.filter-cnopca:hover,/*ховер и фокус*/
 .filter-cnopca:focus {
   color: var(--primary-gov-color);
   background-color: var(--accent-color);

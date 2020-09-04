@@ -160,7 +160,7 @@ header .container {
   color: var(--accent-color);
 }
 
-.nav-svjaz a + a {
+.nav-svjaz a {
   margin-left: 50px;
 }
 

@@ -19,6 +19,7 @@
   /* создаёт псевдоэлемент после содержимого элемента. Не у всех элементов есть собственное содержимое, поэтому ::after не даёт результата для <img>, <input> и ряда других элементов.*/
   margin: 0; /*это внешний отступ на всех 4 сторонах*/
   padding: 0; /*задает отступ от содержимого до края блока*/
+  box-sizing: inherit; /*наследует размер*/
 }
 
 body {
@@ -182,8 +183,12 @@ p {
 /* Cтилизация секции герой */
 
 .geroj {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  display: flex;
+  writing-mode: 100%;
+  min-height: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  align-items: center;
   background-color: var(--secondary-sov-color);
 }
 
@@ -428,7 +433,8 @@ header {
 .projeckt {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  /* margin: -15px;*/
+  list-style: none;
 }
 
 .primer-link {
